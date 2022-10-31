@@ -1,0 +1,4 @@
+debug_log: true
+websocket_timeout: 2s
+wss_rpc_url: "wss://blabla"
+contract_address: "0xFF40bC796f41a5e521bECA3DCe672d16eB905520"

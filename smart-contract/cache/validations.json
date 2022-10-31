@@ -1,0 +1,239 @@
+{
+  "version": "3.3",
+  "log": [
+    {
+      "AddressCallerCounter": {
+        "src": "contracts/AddressCallerCounter.sol:4",
+        "version": {
+          "withMetadata": "15255befdd2bd9e5086964ecfc288518b82350799a59c21fd85b6fa891965436",
+          "withoutMetadata": "827457c898d38b047a0def33fdc06d07f8c1840e87a1c7fabdaab8cdc43cf8fa",
+          "linkedWithoutMetadata": "827457c898d38b047a0def33fdc06d07f8c1840e87a1c7fabdaab8cdc43cf8fa"
+        },
+        "inherit": [],
+        "libraries": [],
+        "methods": [
+          "()",
+          "incAddressCounter()",
+          "getCountByAddress(address)"
+        ],
+        "linkReferences": [],
+        "errors": [
+          {
+            "kind": "constructor",
+            "contract": "AddressCallerCounter",
+            "src": "contracts/AddressCallerCounter.sol:9"
+          }
+        ],
+        "layout": {
+          "storage": [
+            {
+              "label": "owner",
+              "offset": 0,
+              "slot": "0",
+              "type": "t_address",
+              "contract": "AddressCallerCounter",
+              "src": "contracts/AddressCallerCounter.sol:5"
+            },
+            {
+              "label": "_addressCalled",
+              "offset": 0,
+              "slot": "1",
+              "type": "t_mapping(t_address,t_uint256)",
+              "contract": "AddressCallerCounter",
+              "src": "contracts/AddressCallerCounter.sol:7"
+            }
+          ],
+          "types": {
+            "t_address": {
+              "label": "address",
+              "numberOfBytes": "20"
+            },
+            "t_mapping(t_address,t_uint256)": {
+              "label": "mapping(address => uint256)",
+              "numberOfBytes": "32"
+            },
+            "t_uint256": {
+              "label": "uint256",
+              "numberOfBytes": "32"
+            }
+          },
+          "layoutVersion": "1.1",
+          "flat": true
+        },
+        "solcVersion": "0.7.3"
+      }
+    },
+    {
+      "AddressCallerCounter": {
+        "src": "contracts/AddressCallerCounter.sol:4",
+        "version": {
+          "withMetadata": "4b2deca48eca557e3bf52265a4d69ccc926817c94a442d551e69d0afdb16a274",
+          "withoutMetadata": "8d47bbf060e24457a0fbe38b20dbee5efa771dd5ddee5bc6d68ed4c746886a71",
+          "linkedWithoutMetadata": "8d47bbf060e24457a0fbe38b20dbee5efa771dd5ddee5bc6d68ed4c746886a71"
+        },
+        "inherit": [],
+        "libraries": [],
+        "methods": [
+          "incAddressCounter()",
+          "getCountByAddress(address)"
+        ],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [
+            {
+              "label": "owner",
+              "offset": 0,
+              "slot": "0",
+              "type": "t_address",
+              "contract": "AddressCallerCounter",
+              "src": "contracts/AddressCallerCounter.sol:5"
+            },
+            {
+              "label": "_addressCalled",
+              "offset": 0,
+              "slot": "1",
+              "type": "t_mapping(t_address,t_uint256)",
+              "contract": "AddressCallerCounter",
+              "src": "contracts/AddressCallerCounter.sol:7"
+            }
+          ],
+          "types": {
+            "t_address": {
+              "label": "address",
+              "numberOfBytes": "20"
+            },
+            "t_mapping(t_address,t_uint256)": {
+              "label": "mapping(address => uint256)",
+              "numberOfBytes": "32"
+            },
+            "t_uint256": {
+              "label": "uint256",
+              "numberOfBytes": "32"
+            }
+          },
+          "layoutVersion": "1.1",
+          "flat": true
+        },
+        "solcVersion": "0.7.3"
+      }
+    },
+    {
+      "AddressCallerCounter": {
+        "src": "contracts/AddressCallerCounter.sol:4",
+        "version": {
+          "withMetadata": "15255befdd2bd9e5086964ecfc288518b82350799a59c21fd85b6fa891965436",
+          "withoutMetadata": "827457c898d38b047a0def33fdc06d07f8c1840e87a1c7fabdaab8cdc43cf8fa",
+          "linkedWithoutMetadata": "827457c898d38b047a0def33fdc06d07f8c1840e87a1c7fabdaab8cdc43cf8fa"
+        },
+        "inherit": [],
+        "libraries": [],
+        "methods": [
+          "()",
+          "incAddressCounter()",
+          "getCountByAddress(address)"
+        ],
+        "linkReferences": [],
+        "errors": [
+          {
+            "kind": "constructor",
+            "contract": "AddressCallerCounter",
+            "src": "contracts/AddressCallerCounter.sol:9"
+          }
+        ],
+        "layout": {
+          "storage": [
+            {
+              "label": "owner",
+              "offset": 0,
+              "slot": "0",
+              "type": "t_address",
+              "contract": "AddressCallerCounter",
+              "src": "contracts/AddressCallerCounter.sol:5"
+            },
+            {
+              "label": "_addressCalled",
+              "offset": 0,
+              "slot": "1",
+              "type": "t_mapping(t_address,t_uint256)",
+              "contract": "AddressCallerCounter",
+              "src": "contracts/AddressCallerCounter.sol:7"
+            }
+          ],
+          "types": {
+            "t_address": {
+              "label": "address",
+              "numberOfBytes": "20"
+            },
+            "t_mapping(t_address,t_uint256)": {
+              "label": "mapping(address => uint256)",
+              "numberOfBytes": "32"
+            },
+            "t_uint256": {
+              "label": "uint256",
+              "numberOfBytes": "32"
+            }
+          },
+          "layoutVersion": "1.1",
+          "flat": true
+        },
+        "solcVersion": "0.7.3"
+      }
+    },
+    {
+      "AddressCallerCounter": {
+        "src": "contracts/AddressCallerCounter.sol:4",
+        "version": {
+          "withMetadata": "a4920b15c28379dd4d70a09e034fe8b803d55e1ec0083d4d1485d0d39753d2fe",
+          "withoutMetadata": "41e9305893d6b4fa117741d5b3cbc12d2ac68f0498ecff98848b45cc8f969daf",
+          "linkedWithoutMetadata": "41e9305893d6b4fa117741d5b3cbc12d2ac68f0498ecff98848b45cc8f969daf"
+        },
+        "inherit": [],
+        "libraries": [],
+        "methods": [
+          "incAddressCounter()",
+          "getCountByAddress(address)"
+        ],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [
+            {
+              "label": "owner",
+              "offset": 0,
+              "slot": "0",
+              "type": "t_address",
+              "contract": "AddressCallerCounter",
+              "src": "contracts/AddressCallerCounter.sol:5"
+            },
+            {
+              "label": "_addressCalled",
+              "offset": 0,
+              "slot": "1",
+              "type": "t_mapping(t_address,t_uint256)",
+              "contract": "AddressCallerCounter",
+              "src": "contracts/AddressCallerCounter.sol:7"
+            }
+          ],
+          "types": {
+            "t_address": {
+              "label": "address",
+              "numberOfBytes": "20"
+            },
+            "t_mapping(t_address,t_uint256)": {
+              "label": "mapping(address => uint256)",
+              "numberOfBytes": "32"
+            },
+            "t_uint256": {
+              "label": "uint256",
+              "numberOfBytes": "32"
+            }
+          },
+          "layoutVersion": "1.1",
+          "flat": true
+        },
+        "solcVersion": "0.7.3"
+      }
+    }
+  ]
+}
